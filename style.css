@@ -1,0 +1,74 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to bottom, #c2f0f7, #ffffff);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Barra superior com imagem e título */
+.top-bar {
+  background-color: #6ec3d8;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tia-aline-img {
+  width: 80px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.top-bar h1 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.top-bar p {
+  font-size: 1rem;
+  color: #f1f1f1;
+}
+
+/* Container principal do jogo */
+.game-container {
+  padding: 20px;
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+/* Painel de pontuação */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px dashed #90caf9;
+}
+
+/* Pergunta e respostas */
+.question-panel {
+  background-color: #fefefe;
+  border-radius: 10px;
+  border: 2px solid #6ec3d8;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1)

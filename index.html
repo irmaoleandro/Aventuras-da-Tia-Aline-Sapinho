@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Aventuras da Tia Aline</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <img src="assets/tia-aline.webp" alt="Tia Aline" class="tia-aline-img">
+    <div>
+      <h1>Aventuras da Tia Aline</h1>
+      <p>Ajude o sapinho a atravessar a lagoa!</p>
+    </div>
+  </header>
+
+  <main class="game-container">
+    <div class="stats">
+      <span>❤️ Vidas: <span id="lives">3</span></span>
+      <span>⭐ Fase: <span id="level">1</span></span>
+      <span>🏆 Pontos: <span id="score">0</span></span>
+    </div>
+
+    <div class="question-panel">
+      <div id="question" class="question-text">Carregando pergunta...</div>
+      <div id="options" class="options-container"></div>
+    </div>
+
+    <div class="frog" id="frog">🐸</div>
+
+    <div id="feedback" class="feedback-text"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
